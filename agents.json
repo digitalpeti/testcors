@@ -1,0 +1,282 @@
+[
+    {
+        "religion": "Hindu",
+        "subcaste": [
+            {
+                "name": "Brahmin",
+                "regions": [
+                    {
+                        "code": "HNBR",
+                        "region": "North",
+                        "subnames": [
+                            "Kanyakubj",
+                            "Gaur",
+                            "Maithil",
+                            "Kashmiri Pandit"
+                        ]
+                    },
+                    {
+                        "code": "HSBR",
+                        "region": "South",
+                        "subnames": [
+                            "Iyer",
+                            "Iyengar",
+                            "Smartha"
+                        ]
+                    },
+                    {
+                        "code": "HEBR",
+                        "region": "East",
+                        "subnames": [
+                            "Rarhi",
+                            "Maithil"
+                        ]
+                    },
+                    {
+                        "code": "HWBR",
+                        "region": "West",
+                        "subnames": [
+                            "Gujarati Brahmin",
+                            "Maharashtrian Brahmin",
+                            "Deshastha"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Rajput/Kshatriya",
+                "regions": [
+                    {
+                        "code": "HNRA",
+                        "region": "North",
+                        "subnames": [
+                            "Chauhan",
+                            "Rathore",
+                            "Sisodia",
+                            "Bundela"
+                        ]
+                    },
+                    {
+                        "code": "HWRA",
+                        "region": "West",
+                        "subnames": [
+                            "Solanki",
+                            "Parmar"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dalit communities",
+                "regions": [
+                    {
+                        "code": "HNDA",
+                        "region": "North",
+                        "subnames": [
+                            "Chamar",
+                            "Pasi",
+                            "Balmiki"
+                        ]
+                    },
+                    {
+                        "code": "HSDA",
+                        "region": "South",
+                        "subnames": [
+                            "Pulaya",
+                            "Paraiyar"
+                        ]
+                    },
+                    {
+                        "code": "HWDA",
+                        "region": "West",
+                        "subnames": [
+                            "Mahar",
+                            "Mang"
+                        ]
+                    },
+                    {
+                        "code": "HEDA",
+                        "region": "East",
+                        "subnames": [
+                            "Dusadh",
+                            "Dom"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "religion": "Muslim",
+        "subcaste": [
+            {
+                "name": "Ashraf",
+                "regions": [
+                    {
+                        "code": "MNAS",
+                        "region": "North",
+                        "subnames": [
+                            "Sayyid",
+                            "Sheikh",
+                            "Pathan"
+                        ]
+                    },
+                    {
+                        "code": "MSAS",
+                        "region": "South",
+                        "subnames": [
+                            "Sayyid (Tamil Nadu)",
+                            "Rowther"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ajlaf",
+                "regions": [
+                    {
+                        "code": "MNAJ",
+                        "region": "North",
+                        "subnames": [
+                            "Ansari",
+                            "Qureshi",
+                            "Saifi"
+                        ]
+                    },
+                    {
+                        "code": "MSAJ",
+                        "region": "South",
+                        "subnames": [
+                            "Mappila",
+                            "Labbai"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "religion": "Sikh",
+        "subcaste": [
+            {
+                "name": "Jat Sikh",
+                "regions": [
+                    {
+                        "code": "SNJT",
+                        "region": "North",
+                        "subnames": [
+                            "Sandhu",
+                            "Gill",
+                            "Dhillon",
+                            "Sidhu",
+                            "Brar"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dalit Sikh",
+                "regions": [
+                    {
+                        "code": "SNDS",
+                        "region": "North",
+                        "subnames": [
+                            "Mazhabi",
+                            "Ramdasia"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "religion": "Jain",
+        "subcaste": [
+            {
+                "name": "Svetambara",
+                "regions": [
+                    {
+                        "code": "JWST",
+                        "region": "West",
+                        "subnames": [
+                            "Oswal",
+                            "Porwal",
+                            "Shrimali",
+                            "Khandelwal"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Digambara",
+                "regions": [
+                    {
+                        "code": "JCDG",
+                        "region": "Central",
+                        "subnames": [
+                            "Parwar",
+                            "Nema"
+                        ]
+                    },
+                    {
+                        "code": "JSDG",
+                        "region": "South",
+                        "subnames": [
+                            "Kasliwal Jain"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "religion": "Christian",
+        "subcaste": [
+            {
+                "name": "Syrian Christian",
+                "regions": [
+                    {
+                        "code": "CSSY",
+                        "region": "South",
+                        "subnames": [
+                            "Nasrani",
+                            "Jacobite",
+                            "Marthoma"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Tribal Christian",
+                "regions": [
+                    {
+                        "code": "CETR",
+                        "region": "East",
+                        "subnames": [
+                            "Oraon Christian",
+                            "Munda Christian"
+                        ]
+                    },
+                    {
+                        "code": "CNTC",
+                        "region": "Northeast",
+                        "subnames": [
+                            "Naga Christian",
+                            "Mizo Christian"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Anglo-Indian",
+                "regions": [
+                    {
+                        "code": "CAAI",
+                        "region": "All India",
+                        "subnames": []
+                    }
+                ]
+            }
+        ]
+    }
+]
