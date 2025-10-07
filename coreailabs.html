@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Core AI Labs - Generative AI Agents for Business Growth</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        primary: '#4F46E5',
+                        secondary: '#FBBF24',
+                        'primary-dark': '#3730A3',
+                    },
+                    boxShadow: {
+                        glow: '0 0 20px rgba(79,70,229,0.25)',
+                    },
+                },
+            },
+        };
+    </script>
+
+    <style>
+        /* Smooth animations and section fades */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            scroll-margin-top: 80px;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.9s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased selection:bg-primary/20 selection:text-primary-dark">
+
+    <!-- HEADER -->
+    <header class="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold text-primary tracking-tight">Core AI Labs</h1>
+            <nav class="hidden md:flex space-x-8 text-gray-700 font-medium">
+                <a href="#about" class="hover:text-primary transition">About</a>
+                <a href="#services" class="hover:text-primary transition">Services</a>
+                <a href="#agents" class="hover:text-primary transition">AI Agents</a>
+                <a href="#contact" class="hover:text-primary transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section
+        class="relative overflow-hidden bg-gradient-to-br from-primary-dark via-primary to-indigo-700 text-white py-24 md:py-32">
+        <div
+            class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-secondary/20 via-transparent to-transparent">
+        </div>
+
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10 fade-in">
+            <div>
+                <h2 class="text-5xl md:text-6xl font-black mb-6 leading-tight">
+                    Intelligence <span class="text-secondary">Engineered for Growth.</span>
+                </h2>
+                <p class="text-lg md:text-xl mb-10 text-indigo-100 max-w-lg">
+                    Deploy hyper-specialized AI Agents that automate complex decisions — from intelligent hiring to
+                    precision customer engagement.
+                </p>
+                <a href="#agents"
+                    class="bg-secondary text-indigo-900 px-10 py-4 rounded-full font-semibold text-lg shadow-glow hover:shadow-lg hover:scale-105 transition transform">
+                    Meet Our AI Agents
+                </a>
+            </div>
+            <div
+                class="hidden md:block rounded-2xl overflow-hidden shadow-2xl border-4 border-secondary/40 transform hover:scale-105 transition duration-700">
+                <img src="https://images.unsplash.com/photo-1596556555198-4c90d56c4d7e?q=80&w=800&auto=format&fit=crop"
+                    alt="AI Network Visualization" class="w-full h-auto object-cover" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-24 bg-white fade-in">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            <div class="rounded-2xl overflow-hidden shadow-2xl hover:shadow-glow transition-transform duration-700">
+                <img src="https://images.unsplash.com/photo-1520607162513-77402d2109fe?q=80&w=800&auto=format&fit=crop"
+                    alt="Team Collaboration" class="w-full h-auto object-cover" />
+            </div>
+            <div>
+                <h3 class="text-sm font-semibold uppercase text-secondary mb-3 tracking-widest">The Core AI Difference
+                </h3>
+                <h3 class="text-4xl font-extrabold text-gray-900 mb-6">Practical AI, Engineered for Profit</h3>
+                <p class="text-lg text-gray-600 leading-relaxed mb-4 border-l-4 border-secondary pl-4">
+                    <strong>Core AI Labs</strong> simplifies AI adoption. We deliver ready-to-deploy generative AI
+                    solutions that demonstrate measurable ROI — fast.
+                </p>
+                <ul class="mt-8 space-y-4 text-gray-700">
+                    <li><span class="text-primary font-bold mr-2">1.</span><strong>Specialized Agents:</strong> Built
+                        for specific, high-value business functions.</li>
+                    <li><span class="text-primary font-bold mr-2">2.</span><strong>No Data Team Required:</strong> We
+                        handle full lifecycle — from training to optimization.</li>
+                    <li><span class="text-primary font-bold mr-2">3.</span><strong>Cloud-Agnostic Scaling:</strong>
+                        Lightweight deployments across platforms.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-24 bg-gray-100 fade-in">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="text-sm font-semibold uppercase text-primary mb-2 tracking-widest">The Foundation</h3>
+            <h3 class="text-4xl font-extrabold text-gray-900 mb-6">End-to-End AI Enablement Services</h3>
+            <p class="text-xl text-gray-600 mb-16 max-w-3xl mx-auto">We handle the full journey — from AI strategy to
+                deployment — enabling your business to scale with confidence.</p>
+
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+                <!-- Card -->
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-glow transform hover:-translate-y-2 transition duration-500 border-t-4 border-primary text-left">
+                    <div class="text-4xl mb-4">🤖</div>
+                    <h4 class="text-2xl font-bold mb-3 text-gray-900">Custom Agent Development</h4>
+                    <p class="text-gray-600">Purpose-built AI agents and RAG systems that adapt to your internal data
+                        and processes for maximum business fit.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-secondary/40 transform hover:-translate-y-2 transition duration-500 border-t-4 border-secondary text-left">
+                    <div class="text-4xl mb-4">📈</div>
+                    <h4 class="text-2xl font-bold mb-3 text-gray-900">AI Strategy & ROI Mapping</h4>
+                    <p class="text-gray-600">Structured roadmaps that prioritize automation opportunities with the
+                        highest measurable business value.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-glow transform hover:-translate-y-2 transition duration-500 border-t-4 border-primary text-left">
+                    <div class="text-4xl mb-4">🔒</div>
+                    <h4 class="text-2xl font-bold mb-3 text-gray-900">Secure AI Infrastructure</h4>
+                    <p class="text-gray-600">Enterprise-grade MLOps, deployment, and governance to ensure reliability,
+                        compliance, and scalability.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-secondary/40 transform hover:-translate-y-2 transition duration-500 border-t-4 border-secondary text-left">
+                    <div class="text-4xl mb-4">🚀</div>
+                    <h4 class="text-2xl font-bold mb-3 text-gray-900">Workforce Transformation</h4>
+                    <p class="text-gray-600">Workshops and enablement programs in Prompt Engineering and AI-driven
+                        workflows for fast adoption.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AGENTS -->
+    <section id="agents" class="py-24 bg-white fade-in">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="text-sm font-semibold uppercase text-primary mb-2 tracking-widest">AI Agents in Action</h3>
+            <h3 class="text-4xl font-extrabold text-gray-900 mb-12">Intelligent Automation, Ready to Deploy</h3>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <div
+                    class="bg-gray-50 p-8 rounded-2xl shadow-2xl border border-indigo-200 text-left hover:shadow-glow transition duration-500">
+                    <div class="flex items-center gap-4 border-b pb-4 mb-4">
+                        <span class="text-4xl text-primary">🎯</span>
+                        <h4 class="text-3xl font-black text-primary">TalentFit AI</h4>
+                    </div>
+                    <p class="text-gray-600 mb-4">AI-driven recruitment optimization — matching profiles to job
+                        descriptions using deep semantic analysis to reduce time-to-hire by 60%.</p>
+                    <img src="https://images.unsplash.com/photo-1542744094-1736e492215c?q=80&w=800&auto=format&fit=crop"
+                        alt="Recruitment AI" class="rounded-xl shadow-lg" />
+                </div>
+
+                <div
+                    class="bg-gray-50 p-8 rounded-2xl shadow-2xl border border-amber-200 text-left hover:shadow-secondary/40 transition duration-500">
+                    <div class="flex items-center gap-4 border-b pb-4 mb-4">
+                        <span class="text-4xl text-secondary">🤝</span>
+                        <h4 class="text-3xl font-black text-primary">ConnectPro AI</h4>
+                    </div>
+                    <p class="text-gray-600 mb-4">AI-powered matchmaking for professional networks, events, and
+                        communities. Uses semantic mapping to create meaningful, data-backed connections.</p>
+                    <img src="https://images.unsplash.com/photo-1550993074-b5a837e28b85?q=80&w=800&auto=format&fit=crop"
+                        alt="Networking AI" class="rounded-xl shadow-lg" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-gradient-to-r from-primary-dark to-primary text-white text-center shadow-inner fade-in">
+        <div class="max-w-4xl mx-auto px-6">
+            <h3 class="text-3xl font-bold mb-4">Stop Guessing. Start Deploying Intelligent Agents.</h3>
+            <p class="text-lg mb-8 text-indigo-200">See how TalentFit AI and ConnectPro AI can drive your next growth
+                leap.</p>
+            <a href="#contact"
+                class="bg-secondary text-primary px-8 py-3 rounded-full font-bold text-lg hover:bg-amber-300 transition duration-300 shadow-2xl transform hover:scale-105">
+                Schedule Demo
+            </a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-24 bg-gray-900 text-white fade-in">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h3 class="text-4xl font-extrabold mb-6">Connect with Core AI Labs</h3>
+            <p class="text-xl font-light mb-12 text-gray-300">Schedule a consultation to define your AI readiness and
+                strategy.</p>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="hover:bg-gray-800 p-6 rounded-xl transition">
+                    <div class="text-secondary text-3xl mb-2">📧</div>
+                    <h4 class="font-bold text-lg">Email Us</h4>
+                    <p class="text-gray-400">info@coreailabs.com</p>
+                </div>
+                <div class="hover:bg-gray-800 p-6 rounded-xl transition">
+                    <div class="text-secondary text-3xl mb-2">📞</div>
+                    <h4 class="font-bold text-lg">Call Us</h4>
+                    <p class="text-gray-400">+1 (555) 012-3456</p>
+                </div>
+                <div class="hover:bg-gray-800 p-6 rounded-xl transition">
+                    <div class="text-secondary text-3xl mb-2">📍</div>
+                    <h4 class="font-bold text-lg">Visit Us</h4>
+                    <p class="text-gray-400">123 AI Innovation St, Tech City, CA</p>
+                </div>
+            </div>
+
+            <div class="mt-12">
+                <a href="mailto:info@coreailabs.com"
+                    class="bg-secondary text-indigo-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-amber-300 transition transform hover:scale-105 shadow-glow">
+                    Request Agent Demo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-950 text-gray-500 text-center py-6">
+        <p>&copy; 2025 Core AI Labs. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
