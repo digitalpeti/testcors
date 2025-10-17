@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #fff;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .biodata-container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 40px 50px;
+      position: relative;
+      box-sizing: border-box;
+    }
+
+    .biodata-container::before {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 15px;
+      height: 15px;
+      border: 2px solid #bfa05a;
+      border-right: none;
+      border-bottom: none;
+    }
+
+    h2 {
+      text-align: center;
+      color: #003366;
+      margin-bottom: 30px;
+      letter-spacing: 1px;
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .details {
+      width: 65%;
+    }
+
+    .details p {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px 0;
+      font-size: 15px;
+      line-height: 1;
+    }
+
+    .details strong {
+      flex: 0 0 200px;
+      font-weight: 600;
+      color: #003366;
+    }
+
+    .details span {
+      flex: 1;
+      padding: 0 6px;
+      word-break: break-word;
+    }
+
+    .photo {
+      width: 30%;
+      text-align: right;
+    }
+
+    .photo img {
+      width: 150px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .documents {
+      display: none;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      border-top: 2px solid #bfa05a;
+      padding-top: 20px;
+      margin-top: 30px;
+    }
+
+    .documents.has-images {
+      display: flex;
+    }
+
+    .documents img {
+      flex: 0 0 calc(50% - 10px); /* two per row */
+      max-width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .banner {
+      margin-top: 30px;
+      padding: 40px 50px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .banner img {
+      flex: 1 1 220px;
+      max-width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .copyright {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="biodata-container">
+    <div class="content">
+      <div class="details">
+        {{details_fields}}
+      </div>
+      <div class="photo">
+        <img src="{{profileImage}}" alt="Profile Picture" />
+      </div>
+    </div>
+
+    <div class="documents {{documents_class}}">
+      {{documents_images}}
+    </div>
+
+    <div class="banner">
+      <img src="{{banner_image}}" alt="Banner" />
+      <div class="copyright">
+        &copy; 2025 Biodata. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
